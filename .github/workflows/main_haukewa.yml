@@ -59,9 +59,10 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'diogoritto'
+          app-name: 'haukewa'
           slot-name: 'Production'
           package: .
           
+
 
 
